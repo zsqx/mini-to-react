@@ -18,6 +18,13 @@
   "devDependencies": {
     "cross-spawn": "^7.0.3",
     "gogocode": "^1.0.55",
+    "gulp": "^4.0.2",
     "webpack": "^5.83.1"
+  },
+  "dependencies": {
+    "gulp-cli": "^2.3.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-uglify": "^3.0.2",
+    "rxjs": "^7.8.1"
   }
 }
