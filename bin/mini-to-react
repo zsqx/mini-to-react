@@ -1,0 +1,8 @@
+#!/usr/bin/env node
+const { spawn } = require('cross-spawn')
+
+const pwd = process.cwd();
+
+spawn('node', ['./src/index.js', pwd], {
+  stdio: 'inherit'
+})
